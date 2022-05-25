@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: component-sample
     spec:
       containers:
-      - image: docker.io/mm4eche/foobar:dev-code-with-quarkus
+      - image: docker.io/mm4eche/foobar:dev-code-with-quarkus-29b0823364ba05bd5a9d3a89d4e6cad57d2d3723
         imagePullPolicy: Always
         name: container-image
         resources: {}
